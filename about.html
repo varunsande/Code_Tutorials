@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Document</title>
+
+        <link rel="stylesheet" href="demo.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="about-home">
+            <div class="logo1">
+                <a href="index.html"><img src="logo2.png"></a>
+            <nav>
+
+                <div class="nav-links" id="navlinks">
+                    <i id="fa2" class="fa fa-times" onclick="hide()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURCE</a></li>
+                        <li><a href="BLOG.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+
+                </div>
+
+                <i id="fa1" class="fa fa-bars" onclick="show()"></i>
+            </nav>
+
+            <h1>About Us</h1>
+
+        </section>
+
+        <script>
+        
+        var navslinks = document.getElementById("navlinks");
+        function show(){
+            navlinks.style.right="0";
+        }
+        function hide(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+        <section class="abo-us">
+            <div class="row">
+                <div class="abo-col">
+                    <h1>The Largest Couching Center</h1>
+                    <p>What is a coaching center? Coaching Center is a term for private educational institutes that offer classes
+                         for almost all the subjects. They prepare students for specific examinations and tests. That is why students 
+                         opt for these classes for preparation for university or college entrance examinations. Such centers are very
+                          popular nowadays because of the increased interest in competitive exams.<br>
+
+                        Coaching centers are quite famous in countries like the United Kingdom, the United States, India, Malaysia, and 
+                        the Middle East. Their rise and growth were the direct results of the emergence of examinations like SAT and ACT.
+                         Coaching centers are famous in India. It is aimed to improve the academic 
+                         achievement of students.<br>
+                        
+                         A lot of school teachers or university professors earn their supplementary income through a Coaching Center. However,
+                          their primary focus is on rote learning. Due to the immense academic competition amongst students to get into the
+                           best graduate school, both students and the parents have little choice but to engage with these. As parents want 
+                           the best for their children, this trend of Coaching Centers isn t dying anytime soon. <br>
+                        
+                        Coaching Center is accommodating for students looking for one-to-one interactions and special instructions. These 
+                        centers are also extremely convenient for teachers. Unlike teachers at schools, they are paid mostly on an hourly basis
+                         with no boundaries. <br>
+                        
+                        
+                    </p>
+                </div>
+                <div class="abo-col">
+                    <img src="about1.jpg">
+                </div>
+                
+
+            </div>
+
+        </section>
+        
+       
+       
+        <section class="about">
+            <h4> About Us</h1>
+            <p>Coaching Center is a term for private educational institutes
+                that offer classes for almost all the subjects.<br>They prepare
+                students for specific examinations and tests.
+            </p>    
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o">by Code.tutorials</i></p>
+
+        </section>
+        
+
+    </body>
+</html>
